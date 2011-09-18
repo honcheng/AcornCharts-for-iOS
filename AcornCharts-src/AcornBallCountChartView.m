@@ -69,7 +69,7 @@
     float containing_square_width = sqrt(containing_square_area);
     float radius = containing_square_width/2;
     
-    CGPoint point = CGPointMake(radius + rand()%(int)(50), self.frame.size.height-radius);
+    CGPoint point = CGPointMake(radius + rand()%(int)(radius/2.0), self.frame.size.height-radius-rand()%(int)(radius/5.0));
     
     [self insertBallAtPoint:point radius:radius pointObject:pointObject];
 }

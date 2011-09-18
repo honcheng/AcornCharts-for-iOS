@@ -34,7 +34,7 @@
         [self.chartView.layer setCornerRadius:20];
         [self.view addSubview:self.chartView];
         [self.chartView release];
-        [self.chartView setAutoresizingMask:UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight];
+        //[self.chartView setAutoresizingMask:UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight];
         
         NSMutableArray *points = [NSMutableArray array];
         

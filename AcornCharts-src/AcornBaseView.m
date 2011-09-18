@@ -10,6 +10,19 @@
 #import "AcornBaseView.h"
 #import <QuartzCore/QuartzCore.h>
 
+@implementation AcornBaseViewRenderer
+
+- (void)drawLayer:(CALayer *)layer inContext:(CGContextRef)ctx {
+    
+	CGColorRef color = (CGColorRef) [[layer valueForKey:BK_COLOR_KEY] CGColor];
+	CGRect rect = [layer bounds];
+	
+	CGContextSetFillColorWithColor(ctx, color);
+	CGContextFillEllipseInRect(ctx, rect);
+}
+
+@end
+
 @implementation AcornPointObject
 @synthesize identifier;
 @synthesize value, percentage, color;
@@ -34,18 +47,7 @@
 @end
 
 @implementation AcornBaseView
-@synthesize _motionManager, _timer;
-
-#define GRAVITY 1400.0f
-#define BALL_MASS 1.0f
-#define MIN_R 6
-#define MAX_R 32
-
-#define STEP_INTERVAL 1/60.0f
-#define ACCEL_INTERVAL 1/30.0f
-#define FILTER_FACTOR 0.05f
-
-#define BK_COLOR_KEY @"bk_color"
+@synthesize _motionManager, _timer, _renderer;
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -53,16 +55,18 @@
     if (self) {
         
         cpInitChipmunk();
-        
         srand(time(NULL));
         [self setupSpace];
+        
+        self._renderer = [[[AcornBaseViewRenderer alloc] init] autorelease];
     }
     return self;
 }
 
 - (void)start
 {
-    [NSTimer scheduledTimerWithTimeInterval:STEP_INTERVAL
+    
+    self._timer = [NSTimer scheduledTimerWithTimeInterval:STEP_INTERVAL
                                      target:self
                                    selector:@selector(step)
                                    userInfo:nil
@@ -87,15 +91,18 @@
 - (void)stop
 {
     [self._timer invalidate];
+    self._timer = nil;
     [self._motionManager stopAccelerometerUpdates];
+    self._motionManager = nil;
 }
 
 //  The base code for this file is based on ths sample code https://github.com/mattrajca/Physics-Demos.git
 - (void)insertBallAtPoint:(CGPoint)pt radius:(float)radius pointObject:(AcornPointObject*)pointObject
 {
+    
 	CALayer *layer = [CALayer layer];
     layer.bounds = CGRectMake(0.0f, 0.0f, radius * 2, radius * 2);
-	layer.delegate = self;
+	layer.delegate = self._renderer;
 	layer.position = pt;
     
     UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0,0,radius*2,radius*2)];
@@ -122,7 +129,7 @@
 	ball->e = 0.7f; // bounciness
 	cpSpaceAddShape(_space, ball);
     
-    ;
+    
     //cpCircleShapeSetRadius(ball, radius);
 }
 
@@ -164,14 +171,6 @@
 	cpSpaceAddStaticShape(_space, shape);
 }
 
-- (void)drawLayer:(CALayer *)layer inContext:(CGContextRef)ctx {
-	CGColorRef color = (CGColorRef) [[layer valueForKey:BK_COLOR_KEY] CGColor];
-	CGRect rect = [layer bounds];
-	
-	CGContextSetFillColorWithColor(ctx, color);
-	CGContextFillEllipseInRect(ctx, rect);
-}
-
 static void updateSpace (void *obj, void *data) {
 	cpShape *shape = (cpShape *) obj;
 	CALayer *layer = shape->data;
@@ -203,6 +202,7 @@ static void updateSpace (void *obj, void *data) {
 
 - (void)dealloc 
 {
+    //self._renderer = nil;
     [self._timer invalidate];
     self._timer = nil;
     [self._motionManager stopAccelerometerUpdates];
