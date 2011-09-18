@@ -13,5 +13,16 @@
     #import <Foundation/Foundation.h>
 #endif
 
-#define COLOR_LIGHT_BROWN [UIColor colorWithRed:231/255.0 green:227/255.0 blue:216/255.0 alpha:1]
-#define COLOR_DARK_BROWN [UIColor colorWithRed:131/255.0 green:127/255.0 blue:116/255.0 alpha:1]
+#define RGBColor(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
+
+#define COLOR_LIGHT_BROWN RGBColor(231,227,216)
+#define COLOR_DARK_BROWN RGBColor(131,127,116)
+
+#define COLOR_BLUE RGBColor(0,153,204)
+#define COLOR_GREEN RGBColor(153,204,51)
+#define COLOR_ORANGE RGBColor(255,153,51)
+#define COLOR_RED RGBColor(255,51,51)
+#define COLOR_YELLOW RGBColor(255,220,0)
+#define COLOR_PURPLE RGBColor(153,51,204)
+#define COLOR_PINK RGBColor(204,51,153)
+#define COLOR_CYAN RGBColor(51,204,204)

@@ -45,7 +45,31 @@
             [point1 setValue:(10 + rand()%100)];
             [points addObject:point1];
             float base = 10 + rand()%100;
-            [point1 setColor:[UIColor colorWithRed:base/255.0 green:base/255.0 blue:base/255.0 alpha:1]];
+            if (i==0){
+                [point1 setColor:COLOR_RED];
+            }
+            else if (i==1){
+                [point1 setColor:COLOR_BLUE];
+            }
+            else if (i==2){
+                [point1 setColor:COLOR_YELLOW];
+            }
+            else if (i==3){
+                [point1 setColor:COLOR_ORANGE];
+            }
+            else if (i==4){
+                [point1 setColor:COLOR_GREEN];
+            }
+            else if (i==5){
+                [point1 setColor:COLOR_PINK];
+            }
+            else if (i==6){
+                [point1 setColor:COLOR_PURPLE];
+            }
+            else if (i==7){
+                [point1 setColor:COLOR_CYAN];
+            }
+            else [point1 setColor:[UIColor colorWithRed:base/255.0 green:base/255.0 blue:base/255.0 alpha:1]];
         }
         
         [self.chartView setPoints:points];
