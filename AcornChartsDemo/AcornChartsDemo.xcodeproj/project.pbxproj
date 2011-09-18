@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8D418CD1425E62500F0AA4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D418CC1425E62500F0AA4D /* UIKit.framework */; };
+		F8D418CF1425E62500F0AA4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D418CE1425E62500F0AA4D /* Foundation.framework */; };
+		F8D418D11425E62500F0AA4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D418D01425E62500F0AA4D /* CoreGraphics.framework */; };
+		F8D418D71425E62500F0AA4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8D418D51425E62500F0AA4D /* InfoPlist.strings */; };
+		F8D418D91425E62500F0AA4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D418D81425E62500F0AA4D /* main.m */; };
+		F8D418DD1425E62500F0AA4D /* AcornChartsDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D418DC1425E62500F0AA4D /* AcornChartsDemoAppDelegate.m */; };
+		F8D418E11425E62500F0AA4D /* AcornChartsDemoAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D418E01425E62500F0AA4D /* AcornChartsDemoAppDelegate_iPhone.m */; };
+		F8D418E41425E62500F0AA4D /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8D418E21425E62500F0AA4D /* MainWindow_iPhone.xib */; };
+		F8D418E81425E62500F0AA4D /* AcornChartsDemoAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D418E71425E62500F0AA4D /* AcornChartsDemoAppDelegate_iPad.m */; };
+		F8D418EB1425E62500F0AA4D /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8D418E91425E62500F0AA4D /* MainWindow_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8D418C81425E62500F0AA4D /* AcornChartsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcornChartsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D418CC1425E62500F0AA4D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8D418CE1425E62500F0AA4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8D418D01425E62500F0AA4D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F8D418D41425E62500F0AA4D /* AcornChartsDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AcornChartsDemo-Info.plist"; sourceTree = "<group>"; };
+		F8D418D61425E62500F0AA4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8D418D81425E62500F0AA4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8D418DA1425E62500F0AA4D /* AcornChartsDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AcornChartsDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F8D418DB1425E62500F0AA4D /* AcornChartsDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AcornChartsDemoAppDelegate.h; sourceTree = "<group>"; };
+		F8D418DC1425E62500F0AA4D /* AcornChartsDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcornChartsDemoAppDelegate.m; sourceTree = "<group>"; };
+		F8D418DF1425E62500F0AA4D /* AcornChartsDemoAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AcornChartsDemoAppDelegate_iPhone.h; path = iPhone/AcornChartsDemoAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		F8D418E01425E62500F0AA4D /* AcornChartsDemoAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AcornChartsDemoAppDelegate_iPhone.m; path = iPhone/AcornChartsDemoAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		F8D418E31425E62500F0AA4D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		F8D418E61425E62500F0AA4D /* AcornChartsDemoAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AcornChartsDemoAppDelegate_iPad.h; path = iPad/AcornChartsDemoAppDelegate_iPad.h; sourceTree = "<group>"; };
+		F8D418E71425E62500F0AA4D /* AcornChartsDemoAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AcornChartsDemoAppDelegate_iPad.m; path = iPad/AcornChartsDemoAppDelegate_iPad.m; sourceTree = "<group>"; };
+		F8D418EA1425E62500F0AA4D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8D418C51425E62500F0AA4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D418CD1425E62500F0AA4D /* UIKit.framework in Frameworks */,
+				F8D418CF1425E62500F0AA4D /* Foundation.framework in Frameworks */,
+				F8D418D11425E62500F0AA4D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8D418BD1425E62500F0AA4D = {
+			isa = PBXGroup;
+			children = (
+				F8D418D21425E62500F0AA4D /* AcornChartsDemo */,
+				F8D418CB1425E62500F0AA4D /* Frameworks */,
+				F8D418C91425E62500F0AA4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8D418C91425E62500F0AA4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8D418C81425E62500F0AA4D /* AcornChartsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8D418CB1425E62500F0AA4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8D418CC1425E62500F0AA4D /* UIKit.framework */,
+				F8D418CE1425E62500F0AA4D /* Foundation.framework */,
+				F8D418D01425E62500F0AA4D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8D418D21425E62500F0AA4D /* AcornChartsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F8D418DB1425E62500F0AA4D /* AcornChartsDemoAppDelegate.h */,
+				F8D418DC1425E62500F0AA4D /* AcornChartsDemoAppDelegate.m */,
+				F8D418DE1425E62500F0AA4D /* iPhone */,
+				F8D418E51425E62500F0AA4D /* iPad */,
+				F8D418D31425E62500F0AA4D /* Supporting Files */,
+			);
+			path = AcornChartsDemo;
+			sourceTree = "<group>";
+		};
+		F8D418D31425E62500F0AA4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8D418D41425E62500F0AA4D /* AcornChartsDemo-Info.plist */,
+				F8D418D51425E62500F0AA4D /* InfoPlist.strings */,
+				F8D418D81425E62500F0AA4D /* main.m */,
+				F8D418DA1425E62500F0AA4D /* AcornChartsDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8D418DE1425E62500F0AA4D /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				F8D418DF1425E62500F0AA4D /* AcornChartsDemoAppDelegate_iPhone.h */,
+				F8D418E01425E62500F0AA4D /* AcornChartsDemoAppDelegate_iPhone.m */,
+				F8D418E21425E62500F0AA4D /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		F8D418E51425E62500F0AA4D /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				F8D418E61425E62500F0AA4D /* AcornChartsDemoAppDelegate_iPad.h */,
+				F8D418E71425E62500F0AA4D /* AcornChartsDemoAppDelegate_iPad.m */,
+				F8D418E91425E62500F0AA4D /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8D418C71425E62500F0AA4D /* AcornChartsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D418EE1425E62500F0AA4D /* Build configuration list for PBXNativeTarget "AcornChartsDemo" */;
+			buildPhases = (
+				F8D418C41425E62500F0AA4D /* Sources */,
+				F8D418C51425E62500F0AA4D /* Frameworks */,
+				F8D418C61425E62500F0AA4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AcornChartsDemo;
+			productName = AcornChartsDemo;
+			productReference = F8D418C81425E62500F0AA4D /* AcornChartsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8D418BF1425E62500F0AA4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "BuUuK Pte Ltd";
+			};
+			buildConfigurationList = F8D418C21425E62500F0AA4D /* Build configuration list for PBXProject "AcornChartsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8D418BD1425E62500F0AA4D;
+			productRefGroup = F8D418C91425E62500F0AA4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8D418C71425E62500F0AA4D /* AcornChartsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8D418C61425E62500F0AA4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D418D71425E62500F0AA4D /* InfoPlist.strings in Resources */,
+				F8D418E41425E62500F0AA4D /* MainWindow_iPhone.xib in Resources */,
+				F8D418EB1425E62500F0AA4D /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8D418C41425E62500F0AA4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D418D91425E62500F0AA4D /* main.m in Sources */,
+				F8D418DD1425E62500F0AA4D /* AcornChartsDemoAppDelegate.m in Sources */,
+				F8D418E11425E62500F0AA4D /* AcornChartsDemoAppDelegate_iPhone.m in Sources */,
+				F8D418E81425E62500F0AA4D /* AcornChartsDemoAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8D418D51425E62500F0AA4D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D418D61425E62500F0AA4D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F8D418E21425E62500F0AA4D /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D418E31425E62500F0AA4D /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		F8D418E91425E62500F0AA4D /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D418EA1425E62500F0AA4D /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8D418EC1425E62500F0AA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8D418ED1425E62500F0AA4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8D418EF1425E62500F0AA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AcornChartsDemo/AcornChartsDemo-Prefix.pch";
+				INFOPLIST_FILE = "AcornChartsDemo/AcornChartsDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F8D418F01425E62500F0AA4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AcornChartsDemo/AcornChartsDemo-Prefix.pch";
+				INFOPLIST_FILE = "AcornChartsDemo/AcornChartsDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8D418C21425E62500F0AA4D /* Build configuration list for PBXProject "AcornChartsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D418EC1425E62500F0AA4D /* Debug */,
+				F8D418ED1425E62500F0AA4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D418EE1425E62500F0AA4D /* Build configuration list for PBXNativeTarget "AcornChartsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D418EF1425E62500F0AA4D /* Debug */,
+				F8D418F01425E62500F0AA4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8D418BF1425E62500F0AA4D /* Project object */;
+}
