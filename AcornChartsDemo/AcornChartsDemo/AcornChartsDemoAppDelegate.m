@@ -3,10 +3,11 @@
 //  AcornChartsDemo
 //
 //  Created by Muh Hon Cheng on 18/9/11.
-//  Copyright 2011 BuUuK Pte Ltd. All rights reserved.
+//  Copyright 2011 Muh Hon Cheng. All rights reserved.
 //
 
 #import "AcornChartsDemoAppDelegate.h"
+#import "ChartListViewController.h"
 
 @implementation AcornChartsDemoAppDelegate
 
@@ -14,7 +15,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    ChartListViewController *chartListViewController = [[ChartListViewController alloc] initWithStyle:UITableViewStyleGrouped];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:chartListViewController];
+    [[navController navigationBar] setTintColor:COLOR_DARK_BROWN];
+    [chartListViewController release];
+    [self.window addSubview:navController.view];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

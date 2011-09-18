@@ -45,6 +45,20 @@
 		F8D419281425E6B800F0AA4D /* cpSpaceStep.c in Sources */ = {isa = PBXBuildFile; fileRef = F8D4190C1425E6B800F0AA4D /* cpSpaceStep.c */; };
 		F8D419291425E6B800F0AA4D /* cpVect.c in Sources */ = {isa = PBXBuildFile; fileRef = F8D4190D1425E6B800F0AA4D /* cpVect.c */; };
 		F8D4192B1425E6D600F0AA4D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D4192A1425E6D600F0AA4D /* QuartzCore.framework */; };
+		F8FF788A1425EA9A00669917 /* AcornBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FF78891425EA9A00669917 /* AcornBaseView.m */; };
+		F8FF78901425ECCD00669917 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FF788F1425ECCD00669917 /* CoreMotion.framework */; };
+		F8FF78941425EDDA00669917 /* ChartListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FF78931425EDDA00669917 /* ChartListViewController.m */; };
+		F8FF78971425EDF900669917 /* BallSizeChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FF78961425EDF900669917 /* BallSizeChartViewController.m */; };
+		F8FF78A01425EF0600669917 /* Helvetica.dfont in Resources */ = {isa = PBXBuildFile; fileRef = F8FF78991425EF0600669917 /* Helvetica.dfont */; };
+		F8FF78A11425EF0600669917 /* HelveticaCY.dfont in Resources */ = {isa = PBXBuildFile; fileRef = F8FF789A1425EF0600669917 /* HelveticaCY.dfont */; };
+		F8FF78A21425EF0600669917 /* HelveticaNeue.dfont in Resources */ = {isa = PBXBuildFile; fileRef = F8FF789B1425EF0600669917 /* HelveticaNeue.dfont */; };
+		F8FF78A31425EF0600669917 /* HelveticaNeue.ttc in Resources */ = {isa = PBXBuildFile; fileRef = F8FF789C1425EF0600669917 /* HelveticaNeue.ttc */; };
+		F8FF78A41425EF0600669917 /* League Gothic in Resources */ = {isa = PBXBuildFile; fileRef = F8FF789D1425EF0600669917 /* League Gothic */; };
+		F8FF78A51425EF0600669917 /* League Gothic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F8FF789E1425EF0600669917 /* League Gothic.otf */; };
+		F8FF78A61425EF0600669917 /* LeaguGot in Resources */ = {isa = PBXBuildFile; fileRef = F8FF789F1425EF0600669917 /* LeaguGot */; };
+		F8FF78A91425EF6200669917 /* AcornBallSizeChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FF78A81425EF6200669917 /* AcornBallSizeChartView.m */; };
+		F8FF78AC1425F25000669917 /* AcornBallCountChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FF78AB1425F25000669917 /* AcornBallCountChartView.m */; };
+		F8FF78AF1425F2AD00669917 /* BallCountChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FF78AE1425F2AD00669917 /* BallCountChartViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -121,6 +135,26 @@
 		F8F404FC1425E7D7008FB30F /* cpSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSpace.h; sourceTree = "<group>"; };
 		F8F404FD1425E7D7008FB30F /* cpSpaceHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSpaceHash.h; sourceTree = "<group>"; };
 		F8F404FE1425E7D7008FB30F /* cpVect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpVect.h; sourceTree = "<group>"; };
+		F8FF78881425EA9A00669917 /* AcornBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcornBaseView.h; sourceTree = "<group>"; };
+		F8FF78891425EA9A00669917 /* AcornBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcornBaseView.m; sourceTree = "<group>"; };
+		F8FF788F1425ECCD00669917 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		F8FF78921425EDDA00669917 /* ChartListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartListViewController.h; sourceTree = "<group>"; };
+		F8FF78931425EDDA00669917 /* ChartListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartListViewController.m; sourceTree = "<group>"; };
+		F8FF78951425EDF900669917 /* BallSizeChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallSizeChartViewController.h; sourceTree = "<group>"; };
+		F8FF78961425EDF900669917 /* BallSizeChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallSizeChartViewController.m; sourceTree = "<group>"; };
+		F8FF78991425EF0600669917 /* Helvetica.dfont */ = {isa = PBXFileReference; lastKnownFileType = file; path = Helvetica.dfont; sourceTree = "<group>"; };
+		F8FF789A1425EF0600669917 /* HelveticaCY.dfont */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaCY.dfont; sourceTree = "<group>"; };
+		F8FF789B1425EF0600669917 /* HelveticaNeue.dfont */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeue.dfont; sourceTree = "<group>"; };
+		F8FF789C1425EF0600669917 /* HelveticaNeue.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeue.ttc; sourceTree = "<group>"; };
+		F8FF789D1425EF0600669917 /* League Gothic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "League Gothic"; sourceTree = "<group>"; };
+		F8FF789E1425EF0600669917 /* League Gothic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "League Gothic.otf"; sourceTree = "<group>"; };
+		F8FF789F1425EF0600669917 /* LeaguGot */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LeaguGot; sourceTree = "<group>"; };
+		F8FF78A71425EF6200669917 /* AcornBallSizeChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcornBallSizeChartView.h; sourceTree = "<group>"; };
+		F8FF78A81425EF6200669917 /* AcornBallSizeChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcornBallSizeChartView.m; sourceTree = "<group>"; };
+		F8FF78AA1425F25000669917 /* AcornBallCountChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcornBallCountChartView.h; sourceTree = "<group>"; };
+		F8FF78AB1425F25000669917 /* AcornBallCountChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcornBallCountChartView.m; sourceTree = "<group>"; };
+		F8FF78AD1425F2AD00669917 /* BallCountChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallCountChartViewController.h; sourceTree = "<group>"; };
+		F8FF78AE1425F2AD00669917 /* BallCountChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallCountChartViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8FF78901425ECCD00669917 /* CoreMotion.framework in Frameworks */,
 				F8D4192B1425E6D600F0AA4D /* QuartzCore.framework in Frameworks */,
 				F8D418CD1425E62500F0AA4D /* UIKit.framework in Frameworks */,
 				F8D418CF1425E62500F0AA4D /* Foundation.framework in Frameworks */,
@@ -159,6 +194,7 @@
 		F8D418CB1425E62500F0AA4D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F8FF788F1425ECCD00669917 /* CoreMotion.framework */,
 				F8D4192A1425E6D600F0AA4D /* QuartzCore.framework */,
 				F8D418CC1425E62500F0AA4D /* UIKit.framework */,
 				F8D418CE1425E62500F0AA4D /* Foundation.framework */,
@@ -172,6 +208,8 @@
 			children = (
 				F8D418DB1425E62500F0AA4D /* AcornChartsDemoAppDelegate.h */,
 				F8D418DC1425E62500F0AA4D /* AcornChartsDemoAppDelegate.m */,
+				F8FF78911425EDDA00669917 /* Demo */,
+				F8FF78871425EA1D00669917 /* AcornCharts-src */,
 				F8D418DE1425E62500F0AA4D /* iPhone */,
 				F8D418E51425E62500F0AA4D /* iPad */,
 				F8D418D31425E62500F0AA4D /* Supporting Files */,
@@ -182,6 +220,7 @@
 		F8D418D31425E62500F0AA4D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F8FF78981425EF0600669917 /* fonts */,
 				F8D418D41425E62500F0AA4D /* AcornChartsDemo-Info.plist */,
 				F8D418D51425E62500F0AA4D /* InfoPlist.strings */,
 				F8D418D81425E62500F0AA4D /* main.m */,
@@ -307,6 +346,48 @@
 			path = constraints;
 			sourceTree = "<group>";
 		};
+		F8FF78871425EA1D00669917 /* AcornCharts-src */ = {
+			isa = PBXGroup;
+			children = (
+				F8FF78881425EA9A00669917 /* AcornBaseView.h */,
+				F8FF78891425EA9A00669917 /* AcornBaseView.m */,
+				F8FF78A71425EF6200669917 /* AcornBallSizeChartView.h */,
+				F8FF78A81425EF6200669917 /* AcornBallSizeChartView.m */,
+				F8FF78AA1425F25000669917 /* AcornBallCountChartView.h */,
+				F8FF78AB1425F25000669917 /* AcornBallCountChartView.m */,
+			);
+			name = "AcornCharts-src";
+			path = "../../AcornCharts-src";
+			sourceTree = "<group>";
+		};
+		F8FF78911425EDDA00669917 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				F8FF78921425EDDA00669917 /* ChartListViewController.h */,
+				F8FF78931425EDDA00669917 /* ChartListViewController.m */,
+				F8FF78951425EDF900669917 /* BallSizeChartViewController.h */,
+				F8FF78961425EDF900669917 /* BallSizeChartViewController.m */,
+				F8FF78AD1425F2AD00669917 /* BallCountChartViewController.h */,
+				F8FF78AE1425F2AD00669917 /* BallCountChartViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		F8FF78981425EF0600669917 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F8FF78991425EF0600669917 /* Helvetica.dfont */,
+				F8FF789A1425EF0600669917 /* HelveticaCY.dfont */,
+				F8FF789B1425EF0600669917 /* HelveticaNeue.dfont */,
+				F8FF789C1425EF0600669917 /* HelveticaNeue.ttc */,
+				F8FF789D1425EF0600669917 /* League Gothic */,
+				F8FF789E1425EF0600669917 /* League Gothic.otf */,
+				F8FF789F1425EF0600669917 /* LeaguGot */,
+			);
+			name = fonts;
+			path = Demo/fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -333,6 +414,7 @@
 		F8D418BF1425E62500F0AA4D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "BuUuK Pte Ltd";
 			};
 			buildConfigurationList = F8D418C21425E62500F0AA4D /* Build configuration list for PBXProject "AcornChartsDemo" */;
@@ -361,6 +443,13 @@
 				F8D418E41425E62500F0AA4D /* MainWindow_iPhone.xib in Resources */,
 				F8D418EB1425E62500F0AA4D /* MainWindow_iPad.xib in Resources */,
 				F8D419101425E6B800F0AA4D /* CMakeLists.txt in Resources */,
+				F8FF78A01425EF0600669917 /* Helvetica.dfont in Resources */,
+				F8FF78A11425EF0600669917 /* HelveticaCY.dfont in Resources */,
+				F8FF78A21425EF0600669917 /* HelveticaNeue.dfont in Resources */,
+				F8FF78A31425EF0600669917 /* HelveticaNeue.ttc in Resources */,
+				F8FF78A41425EF0600669917 /* League Gothic in Resources */,
+				F8FF78A51425EF0600669917 /* League Gothic.otf in Resources */,
+				F8FF78A61425EF0600669917 /* LeaguGot in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +490,12 @@
 				F8D419271425E6B800F0AA4D /* cpSpaceQuery.c in Sources */,
 				F8D419281425E6B800F0AA4D /* cpSpaceStep.c in Sources */,
 				F8D419291425E6B800F0AA4D /* cpVect.c in Sources */,
+				F8FF788A1425EA9A00669917 /* AcornBaseView.m in Sources */,
+				F8FF78941425EDDA00669917 /* ChartListViewController.m in Sources */,
+				F8FF78971425EDF900669917 /* BallSizeChartViewController.m in Sources */,
+				F8FF78A91425EF6200669917 /* AcornBallSizeChartView.m in Sources */,
+				F8FF78AC1425F25000669917 /* AcornBallCountChartView.m in Sources */,
+				F8FF78AF1425F2AD00669917 /* BallCountChartViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

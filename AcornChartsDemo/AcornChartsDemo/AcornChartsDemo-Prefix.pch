@@ -12,3 +12,6 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+#define COLOR_LIGHT_BROWN [UIColor colorWithRed:231/255.0 green:227/255.0 blue:216/255.0 alpha:1]
+#define COLOR_DARK_BROWN [UIColor colorWithRed:131/255.0 green:127/255.0 blue:116/255.0 alpha:1]

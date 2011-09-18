@@ -3,7 +3,7 @@
 //  AcornChartsDemo
 //
 //  Created by Muh Hon Cheng on 18/9/11.
-//  Copyright 2011 BuUuK Pte Ltd. All rights reserved.
+//  Copyright 2011 Muh Hon Cheng. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
