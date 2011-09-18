@@ -1,0 +1,3 @@
+[submodule "AcornChartsDemo/AcornChartsDemo/Chipmunk-iOS-framework"]
+	path = AcornChartsDemo/AcornChartsDemo/Chipmunk-iOS-framework
+	url = https://github.com/Eskipol/Chipmunk-iOS-framework.git
