@@ -1,7 +1,7 @@
 AcornCharts for iOS
 =============
 
-<img src="https://github.com/honcheng/AcornCharts-for-iOS/raw/master/Screenshots/ball_quantity.png"/>
+<img src="https://github.com/honcheng/AcornCharts-for-iOS/raw/master/Screenshots/ball_size.png"/>
 <img src="https://github.com/honcheng/AcornCharts-for-iOS/raw/master/Screenshots/ball_quantity.png"/>
 
 [video demo](http://youtu.be/B7jWfzFx5YY)
