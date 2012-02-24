@@ -56,6 +56,7 @@
         
         for (int n=0; n<n_ball_for_point; n++)
         {
+            // insert the balls one by one with delay
             [self performSelector:@selector(insertBall:) withObject:pointObject afterDelay:current_interval];
             current_interval += interval;
         }

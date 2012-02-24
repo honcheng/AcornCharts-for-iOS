@@ -38,6 +38,8 @@
         
         NSMutableArray *points = [NSMutableArray array];
         
+        // for demo
+        // create 10 different data group and assign colors to them
         for (int i=0; i<10; i++)
         {
             AcornPointObject *point1 = [[[AcornPointObject alloc] init] autorelease];

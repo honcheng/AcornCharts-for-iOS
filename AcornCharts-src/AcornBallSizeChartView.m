@@ -65,6 +65,7 @@
     self.current_index += 1;
     if (self.current_index < [self.points count])
     {
+        // insert the balls one by one with delay
         [self performSelector:@selector(insertBall) withObject:nil afterDelay:0.2];
     }
 }
