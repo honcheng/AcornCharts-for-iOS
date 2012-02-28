@@ -18,6 +18,7 @@ Remember to pull the chipmunk submodule before compiling.
 * responds to device tilting
 
 To pull to chipmunk submodule, go to the root directory of the folder and run the following
+
 * git submodule init
 * git submodule update
 
