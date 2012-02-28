@@ -17,4 +17,8 @@ Remember to pull the chipmunk submodule before compiling.
 * 2 Options - uses ball size or quantity to show difference in data size
 * responds to device tilting
 
+To pull to chipmunk submodule, go to the root directory of the folder and run the following
+* git submodule init
+* git submodule update
+
 [twitter.com/honcheng](http://twitter.com/honcheng)
