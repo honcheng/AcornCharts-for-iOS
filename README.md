@@ -18,3 +18,5 @@ Remember to pull the chipmunk submodule before compiling.
 * responds to device tilting
 
 [twitter.com/honcheng](http://twitter.com/honcheng)
+
+![](http://www.cocoacontrols.com/analytics/honcheng/acorncharts-for-ios.png)
